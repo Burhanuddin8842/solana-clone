@@ -1,27 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 
-*{
-    transition: all 0.7s !important;
-    box-sizing: border-box !important;
+* {
+  transition: all 0.7s !important;
+  box-sizing: border-box !important;
 }
-.navbar-brand h3{
-    font-family: "Orbitron", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-    }
-    .nav-item:hover .nav-link, .nav-item:focus .nav-link{
-        color: white !important;
-    }
-    .nav-item:focus .nav-link{
-        text-decoration: underline !important;
-        text-decoration-color: #19FB9B !important;
-        text-decoration-thickness: 3px !important;
-            text-underline-offset: 15px;
-    }
-        .nav-item:hover .nav-link {
-            text-decoration: underline !important;
-            text-decoration-color: #19FB9B !important;
-            text-decoration-thickness: 3px !important;
-            text-underline-offset: 15px;
-        }
+.navbar-brand h3 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-item:hover .nav-link,
+.nav-item:focus .nav-link {
+  color: white !important;
+}
+.nav-item:focus .nav-link {
+  text-decoration: underline !important;
+  text-decoration-color: #19fb9b !important;
+  text-decoration-thickness: 3px !important;
+  text-underline-offset: 15px;
+}
+.nav-item:hover .nav-link {
+  text-decoration: underline !important;
+  text-decoration-color: #19fb9b !important;
+  text-decoration-thickness: 3px !important;
+  text-underline-offset: 15px;
+}
+.navigation .dropdown-item:hover {
+  border: 1px solid purple !important;
+  background-color: rgba(128, 0, 128, 0.086) !important;
+}
